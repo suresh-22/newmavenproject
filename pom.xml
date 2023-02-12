@@ -11,7 +11,16 @@
   <name>bhasha</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
+  
+  
+  <distributionManagement>
+        <repository>
+                <id>suresh-2243</id>
+                <url>http://18.188.116.141:8081/repository/suresh-2243/</url>
+        <repository>
+  <distributionManagement>
+    
+    
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
@@ -26,6 +35,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+    
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
