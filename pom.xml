@@ -17,8 +17,8 @@
         <repository>
                 <id>suresh-2243</id>
                 <url>http://18.191.253.79:8081/repository/suresh-2243/</url>
-        <repository>
-  <distributionManagement>
+        </repository>
+  </distributionManagement>
     
     
   <properties>
